@@ -95,7 +95,8 @@ noble.on('discover', (peripheral) => {
 			if (result.realTime) {
 				// Only use data coming from target device; if no target device set then set it
 				if (result.ordinalId != targetDeviceId) {
-					if (targetDeviceId == -1) {
+					if (targetDeviceId == -1 ||targetDeviceId == 0 ) {
+
 						console.log(`Attaching to bike id ${result.ordinalId}`);
 						targetDeviceId = result.ordinalId;
 						keiserBLE.setDeviceId(targetDeviceId);
