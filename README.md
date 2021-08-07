@@ -80,7 +80,7 @@ These installation steps are based on starting with a Raspberry PI Zero W, a bla
      sudo apt install git
      mkdir /home/pi/code
      cd /home/pi/code
-     git clone https://github.com/djwasser/M3iPiZeroW.git
+     git clone https://github.com/nealjane/M3iPiZeroW.git
      ```
 11. Change to the directory created by the git clone command and install the app:
      ```
