@@ -105,7 +105,7 @@ noble.on('discover', (peripheral) => {
 					}
 				}
 				
-				// Use current rpm (cadence) to simulate the crank count and crank event time for CPS and CSC services
+				// Use the current rpm (cadence) to simulate the crank count and crank event time for CPS and CSC services
 				// (for range of valid values for crank count and crank event time, see BLE specs)
 				if (result.cadence > 0) {
 					var cranksCurrentEventTime = (cranksLastEventTime + Math.round((60 * 1024)/result.cadence)) % 65535;
