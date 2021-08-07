@@ -85,6 +85,7 @@ These installation steps are based on starting with a Raspberry PI Zero W, a bla
      cd /home/pi/code
      git clone https://github.com/nealjane/M3iPiZeroW.git
      ```
+
 11. Change to the directory created by the git clone command and install the app:
      ```
      cd M3iPiZeroW
