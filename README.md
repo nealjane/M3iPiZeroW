@@ -78,9 +78,9 @@ These installation steps are based on starting with a Raspberry PI Zero W, a bla
      ```
      sudo apt update
      sudo apt install git
-     
+     ```
 10a. type 'Y' when asked..
-     
+     ```
      mkdir /home/pi/code
      cd /home/pi/code
      git clone https://github.com/nealjane/M3iPiZeroW.git
